@@ -14,6 +14,7 @@ spec:
     spec:
       containers:
         - name: delivery
-          image: myeventstormingregistry.azurecr.io/delivery
+          image: admin15acr.azurecr.io/reqres_delivery
+
           ports:
             - containerPort: 8080
